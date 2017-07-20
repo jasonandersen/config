@@ -1,0 +1,5 @@
+alias ls='ls -laG'
+alias mvn='/Users/jason/dev/lib/maven/current/bin/mvn'
+alias dc='docker-compose'
+alias che-start='docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v /Users/jason/dev/che:/data eclipse/che start'
+alias che-stop='docker run -it --rm -v /var/run/docker.sock:/var/run/docker.sock -v /Users/jason/dev/che:/data eclipse/che stop'
